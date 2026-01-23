@@ -46,7 +46,7 @@ backend/app/core/
 ├── dimension_gen.py
 └── dimension_manu.py
 
-````
+```
 
 **Nguyên tắc đã đạt được:**
 - Core KHÔNG import Tkinter
@@ -72,12 +72,12 @@ text_positions: {
   "width":  {"x":..,"y":..},
   "depth":  {"x":..,"y":..}
 }
-````
+```
 
 * Được định nghĩa trong `types.py`
 * Được sử dụng trong `suggest.py` và `render.py`
 
-**Trạng thái:** HOÀN THÀNH
+**Trạng thái:** HOÀN THÀNH + TEST từng modul
 
 ---
 
@@ -187,7 +187,7 @@ text_positions: {
 **Last updated:** *(điền ngày khi commit)*
 **Status:** Core ready → Backend API pending
 
-````
+```
 
 ---
 
@@ -200,12 +200,7 @@ text_positions: {
 git add PROJECT_STATE.md
 git commit -m "Add project state documentation (up to step 9)"
 git push
-````
+```
 
 ---
 
-Khi bạn mở **chat mới**, chỉ cần nói:
-
-> *“Dựa trên PROJECT_STATE.md, tiếp tục Bước 3: FastAPI backend.”*
-
-Mình sẽ tiếp đúng **tại điểm đó**, không lặp lại.
